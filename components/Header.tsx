@@ -22,7 +22,13 @@ export default function Header() {
               <Link
                 href={link.href}
                 className={`hover:text-neutral-100 transition-colors ${
-                  pathname === link.href ? "text-neutral-100" : ""
+                  link.href === "/"
+                    ? pathname === "/"
+                      ? "text-neutral-100"
+                      : ""
+                    : pathname.startsWith(link.href)
+                    ? "text-neutral-100"
+                    : ""
                 }`}
               >
                 {link.label}

@@ -1,6 +1,6 @@
 # Portfolio — UI/UX Designer
 
-A modern, modular portfolio built with **Next.js 14 (App Router)**, **TypeScript**, and **Tailwind CSS**. Deployable for free on Vercel.
+A modern, modular portfolio built with **Next.js 16 (App Router)**, **TypeScript**, and **Tailwind CSS**. Deployable for free on Vercel.
 
 ## Features
 - Home page with featured work & lab highlights
